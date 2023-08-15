@@ -8,6 +8,7 @@ module.exports = defineConfig({
       
       // implement node event listeners here
     },
-    excludeSpecPattern: ['**/1-getting-started/*', '**/2-advanced-examples/*']
+    excludeSpecPattern: ['**/1-getting-started/*', '**/2-advanced-examples/*'],
+    experimentalStudio: true
   },
 });
