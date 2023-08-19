@@ -1,9 +1,6 @@
 // cypress/integration/dynamic_content_spec.js
 describe('Dynamic Content Page', () => {
     it('loads and displays dynamic content', () => {
-      =
-      -0Э9
-      ЁЛШГ54УЦФ / Visit the page under test
       cy.visit('https://the-internet.herokuapp.com/dynamic_content'); // Adjust the URL as needed
   
       // Check if the page contains the expected elements
