@@ -6,6 +6,6 @@ describe('basicAuth', () => {
           password: 'admin'
         }
       });
-});
     });
+});
   
