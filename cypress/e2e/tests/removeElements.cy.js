@@ -1,6 +1,6 @@
 describe('Add/Remove Elements', () => {
-    it('passes', () => {
-        cy.visit('http://127.0.0.1:9292/?optimizely_disable=true')
+    it('passes', {baseUrl: 'http://127.0.0.1:9292'}, () => {
+        cy.visit('/')
         cy.contains('Add/Remove Elements').click()
         cy.contains('Add Element').click()
         cy.contains('Delete').click()
