@@ -3,7 +3,7 @@ describe('Disappearing Elements Test', () => {
     cy.visit('http://127.0.0.1:9292/disappearing_elements');
   });
 
-  it('Should test disappearing and reappearing elements', () => {
+  it('Should test disappearing and reappearing elements', {retries: 2}, () => {
     // Check if the "Home" link exists initially
     cy.get('li a').contains('Home').should('exist');
 

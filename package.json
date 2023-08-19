@@ -10,9 +10,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.17.3"
+    "@4tw/cypress-drag-drop": "^2.2.4",
+    "cypress": "^12.17.3",
+    "typescript": "^5.1.6"
   },
   "dependencies": {
+    "cypress-real-events": "^1.10.0",
+    "react-beautiful-dnd": "^13.1.1",
     "request-promise": "^4.2.6"
   }
 }

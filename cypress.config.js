@@ -9,6 +9,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     excludeSpecPattern: ['**/1-getting-started/*', '**/2-advanced-examples/*'],
-    experimentalStudio: true
+    experimentalStudio: true,
+    baseUrl: 'http://127.0.0.1:9292/'
   },
 });
