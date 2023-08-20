@@ -3,9 +3,7 @@ describe('dynamic controls test', () => {
         cy.visit('http://127.0.0.1:9292/dynamic_controls')
     })
 
-    /* ==== Test Created with Cypress Studio ==== */
-    it('studio', function() {
-        /* ==== Generated with Cypress Studio ==== */
+    it('pases', function() {
         cy.visit('http://127.0.0.1:9292/dynamic_controls');
         cy.get('#checkbox > input').should('not.be.checked');
         cy.get('#checkbox').should('be.visible');
@@ -31,6 +29,5 @@ describe('dynamic controls test', () => {
         cy.get('#checkbox-example').click();
         cy.get('#message').click();
         cy.get('#message').should('have.text', 'It\'s back!');
-        /* ==== End Cypress Studio ==== */
     });
 })
