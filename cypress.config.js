@@ -10,6 +10,8 @@ module.exports = defineConfig({
     },
     excludeSpecPattern: ['**/1-getting-started/*', '**/2-advanced-examples/*'],
     experimentalStudio: true,
-    baseUrl: 'http://127.0.0.1:9292/'
+    baseUrl: 'http://127.0.0.1:9292/',
+    specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}'
+
   },
 });
