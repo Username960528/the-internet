@@ -7,3 +7,7 @@ vendor/*
 .rbenv-version
 .ruby-version
 .rvmrc
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
